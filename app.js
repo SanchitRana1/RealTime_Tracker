@@ -21,7 +21,7 @@ io.on("connection",(socket)=>{
   socket.on("disconnect",()=>{
     io.emit("user-disconnected",socket?.id)
   })
-    console.log("connected");
+    // console.log("connected");
 })
 
 

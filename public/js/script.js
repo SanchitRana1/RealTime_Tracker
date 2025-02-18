@@ -16,12 +16,12 @@ if (navigator.geolocation) {
     {
       enableHighAccuracy: true,
       maximumAge: 0,
-      timeout: 5000,
+      timeout: 3000,
     }
   );
 }
 
-// initialize a map centered at coordinates (0,0) with a zoom level of 15 using leaflet.
+// initialize a map centered at coordinates (0,0) with a zoom level of 10 using leaflet.
 const map = L.map("map").setView([0, 0], 10);
 
 // Add open street tiles to the map.
